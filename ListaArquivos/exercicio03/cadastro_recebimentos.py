@@ -41,4 +41,4 @@ def cadastro_recebimento(valor_doc,data_emissao,data_vencimento,cod_cli,):
 
             
 
-cadastro_recebimento("12","18-12-2000","18-12-2000","2")
+cadastro_recebimento("12","18-12-2000","18-12-2000","3")

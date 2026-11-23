@@ -43,4 +43,4 @@ def cadastrar_clientes(nome,endereco,fone):
 
 
 
-cadastrar_clientes("Jocaas3","aasdjf","eitakd")
+cadastrar_clientes("Jocaasfsdf3","aasdjf","eitakd")
