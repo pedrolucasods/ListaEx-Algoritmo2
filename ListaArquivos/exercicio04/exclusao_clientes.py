@@ -6,7 +6,7 @@ caminho_arquivo_cliente = pasta_atual.parent / "exercicio01" / "clientes.csv"
 caminho_arquivo_recebimento = pasta_atual.parent / "exercicio01" / "recebimento.csv"
 
 def excluir_cliente(cod_cli):
-    cliente_excluido = True
+    cliente_excluido = False
     with open(caminho_arquivo_cliente,"r",newline="",encoding="utf-8-sig") as arquivo_cliente:
         leitor_clientes = csv.DictReader(arquivo_cliente,delimiter=";")
         campos_clientes = leitor_clientes.fieldnames
